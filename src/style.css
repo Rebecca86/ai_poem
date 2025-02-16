@@ -1,9 +1,47 @@
 h1 {
-  color: #780000;
-  font-family: "Great Vibes", serif;
+  color: #ca2530;
+  font-family: "Cedarville Cursive", serif;
   font-weight: 400;
   font-style: normal;
 }
 body {
-  background-color: #f8edeb;
+  background-color: #ebebe8;
+  text-align: center;
+  max-width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+.search-input {
+  background-color: #f9f7fe;
+  border: none;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  padding: 20px;
+  width: 75%;
+  border-radius: 6px;
+}
+
+.search-button {
+  margin-left: 5px;
+  font-size: 16px;
+  background-color: #15a9a9;
+  color: white;
+  border: none;
+  padding: 20px;
+  line-height: 1;
+  border-radius: 5px;
+}
+.poem-content {
+  max-width: 60%;
+  display: block;
+  margin: 0 auto;
+  text-align: justify;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #063340;
+  color: #f9f7fe;
+  border-left: 15px #ca2530 solid;
+  padding: 2%;
+  font-size: 22px;
 }
